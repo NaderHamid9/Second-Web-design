@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color:#00AEC7;
+}
+
+body {
+  background: #F9F9F9;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: #F9F9F9;
+}
+
+.navbar .logo {
+  width: 237px;
+  height: 59px;
+  padding-top: 43px;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1419px auto;
+      grid-template-columns: 1419px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar nav {
+  display: block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding-top: 66px;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: .1em 1em;
+  text-decoration: none;
+}
+
+.navbar nav ul.primary-nav {
+  margin: 0;
+}
+
+.navbar nav li.current a {
+  font-weight: bold;
+}
+
+.navbar nav li.current {
+  background: white;
+  border: 3px solid var(--primary-color);
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: -.2em;
+}
+
+.navbar nav li.current:hover {
+  background: var(--primary-color);
+}
+
+.navbar nav li.current:hover .current-nav {
+  color: white;
+}
+
+section {
+  padding: 246px;
+  padding-bottom: 0px;
+}
+
+.hero .container .left-part h1 {
+  font-style: bold;
+  font-size: 70px;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.hero .container .left-part .lorem {
+  font-size: 25px;
+  color: gray;
+  text-align: left;
+  padding-right: 800px;
+  margin-bottom: 70px;
+}
+
+.hero .container .left-part a {
+  color: white;
+  text-decoration: none;
+  font: bold;
+  font-size: 30px;
+}
+
+.hero .container .left-part .get-started {
+  background: var(--primary-color);
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5em;
+  margin-left: 150px;
+}
+
+.hero .container .hero-cat {
+  margin-top: -620px;
+}
+
+.hero .container .hero-cat .hero-img {
+  margin-left: 1000px;
+}
+
+.prices-section {
+  background-color: #533B5D;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.prices-section h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.prices-section .prices-container {
+  margin: 0px;
+  margin: 0%;
+  padding-left: 80px;
+  color: black;
+}
+
+.prices-section .prices-container .left-price .left-price-container {
+  background-color: white;
+  width: 353px;
+  height: 650px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.prices-section .prices-container .left-price .left-price-container .plus-price {
+  padding-top: 75px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  color: black;
+}
+
+.prices-section .prices-container .left-price .left-price-container .Monthley {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 20px;
+  color: #707070;
+}
+
+.prices-section .prices-container .left-price .left-price-container .sub-container {
+  margin-top: 30PX;
+  margin-left: 107px;
+  width: 132px;
+  height: 39px;
+  background-color: var(--primary-color);
+  border-radius: 100px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .sub-container .sub {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list {
+  padding-right: 40px;
+  list-style-type: none;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f1 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f2 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f3 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f4 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f5 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .f6 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .get-started-container {
+  padding-top: 5px;
+  text-align: center;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bebebe;
+  width: 194px;
+  border-radius: 49px;
+  height: 45px;
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .get-started-container:hover {
+  background-color: #00AEC7;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .get-started-container:hover .get-started {
+  color: white;
+}
+
+.prices-section .prices-container .left-price .left-price-container .features-list .get-started-container .get-started {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container {
+  background-color: white;
+  width: 353px;
+  height: 650px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .premium-price {
+  padding-top: 75px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  color: black;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .Monthley {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 20px;
+  color: #707070;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .sub-container {
+  margin-top: 30PX;
+  margin-left: 107px;
+  width: 132px;
+  height: 39px;
+  background-color: #9C79A5;
+  border-radius: 100px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .sub-container .sub {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list {
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f1 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f2 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f3 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f4 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f5 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .features-list .f6 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .get-started-container {
+  padding-top: 5px;
+  text-align: center;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bebebe;
+  width: 194px;
+  border-radius: 49px;
+  height: 45px;
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .get-started-container:hover {
+  background-color: #9C79A5;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .get-started-container:hover .get-started {
+  color: white;
+}
+
+.prices-section .prices-container .middle-price .middle-price-container .get-started-container .get-started {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.prices-section .prices-container .right-price .right-price-container {
+  background-color: white;
+  width: 353px;
+  height: 650px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.prices-section .prices-container .right-price .right-price-container .plus-price {
+  padding-top: 75px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  color: black;
+}
+
+.prices-section .prices-container .right-price .right-price-container .Monthley {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 20px;
+  color: #707070;
+}
+
+.prices-section .prices-container .right-price .right-price-container .sub-container {
+  margin-top: 30PX;
+  margin-left: 107px;
+  width: 132px;
+  height: 39px;
+  background-color: #DEC837;
+  border-radius: 100px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .sub-container .sub {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list {
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f1 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f2 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f3 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f4 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f5 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .features-list .f6 {
+  padding-bottom: 10px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .get-started-container {
+  padding-top: 5px;
+  text-align: center;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bebebe;
+  width: 194px;
+  border-radius: 49px;
+  height: 45px;
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.prices-section .prices-container .right-price .right-price-container .get-started-container:hover {
+  background-color: #DEC837;
+}
+
+.prices-section .prices-container .right-price .right-price-container .get-started-container:hover .get-started {
+  color: white;
+}
+
+.prices-section .prices-container .right-price .right-price-container .get-started-container .get-started {
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+.prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prices > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /*grow*/
+}
+/*# sourceMappingURL=main.css.map */

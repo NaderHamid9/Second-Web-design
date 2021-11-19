@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#00AEC7;
+}
+body{
+    background: #F9F9F9;
+    margin :0;
+    font-family: 'Poppins';
+}
+.navbar{
+    background: #F9F9F9;
+    .logo{
+        width: 237px;
+        height: 59px;
+        padding-top: 43px;
+    }
+}
+.navbar  .container{
+    display: grid;
+    grid-template-columns: 1419px auto ;
+    justify-content:center;
+    
+}
+.navbar nav{
+    display: block;
+    justify-content: space-between;
+    background: none;
+    position:  unset;
+    height: auto;
+    width: 100%;
+    padding-top: 66px;
+    
+
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    a{
+        color:black;
+        font-size: 1em;
+        padding: .1em 1em;
+        text-decoration:none ;
+    }
+    ul.primary-nav{
+        margin: 0;
+    }
+    li.current a{
+        font-weight: bold;
+    }
+    li.current{
+        background: white;
+        border: 3px solid var(--primary-color);
+        font-weight: bold;
+        border-radius: 5em;
+        margin-top: -.2em;
+
+        &:hover{
+            background: var(--primary-color);
+            .current-nav{
+                color:white
+            }
+            
+            
+        }
+    }
+}   
+section{
+    padding: 246px;
+    padding-bottom: 0px;
+}
+.hero{
+    .container{
+        .left-part{
+            h1{
+                font-style: bold;
+                font-size: 70px;
+                color: #000;
+                padding: 0;
+                margin: 0;
+                
+            }
+            .lorem{
+                font-size: 25px;
+                color:gray;
+                text-align: left;
+                padding-right: 800px;
+                margin-bottom: 70px;
+            }
+            a{
+                color:white;
+                text-decoration: none;
+                font: bold;
+                font-size: 30px;
+                
+
+            }
+            .get-started{
+                background: var(--primary-color);
+                text-decoration: none;
+                padding: 12px 20px;
+                border-radius: 5em;
+                margin-left: 150px;
+                
+
+            }
+        }
+        .hero-cat{
+            .hero-img{
+                margin-left: 1000px;
+            }   margin-top: -620px;
+        }
+    }
+}
+.prices-section{
+    background-color: #533B5D;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   
+
+   h1{
+            
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+    .prices-container{
+        margin: 0px;
+        margin: 0%;
+        padding-left: 80px;
+        color: black;
+      
+        
+        .left-price{
+            //padding-right: 1000px; 
+            .left-price-container{
+
+            
+            background-color: white;
+            width: 353px;
+            height: 650px;
+            border-radius: 50px;
+            text-align: center;
+            .plus-price{
+                padding-top: 75px;
+                margin-bottom: 0px;
+                font-size: 50px;
+                color: black;
+            }
+            .Monthley{
+                margin-top: -10px;
+                margin-bottom:-10px;
+                    font-size: 20px;
+                    color: #707070;
+                }
+                .sub-container{
+                    margin-top: 30PX;
+                    margin-left: 107px;
+                    width: 132px;
+                    height: 39px;
+                    background-color: var(--primary-color);
+                    border-radius: 100px;
+                    .sub{
+                        
+                         text-align: center;
+                        font-size: 28px;
+                        color: white;
+               
+                    }
+
+                }
+                
+                .features-list{
+            padding-right: 40px;
+            
+            //list-style-image: url(../images/bullet.svg);
+            list-style-type: none;
+            padding-top: 20px;
+            font-size: 23px;
+            text-align: center;
+            margin-left: 10px;
+            .f1{
+                padding-bottom: 10px;
+            }
+            .f2{
+                padding-bottom: 10px;
+            }
+            .f3{
+                //list-style-image: url(../images/Cross.png);
+                padding-bottom: 10px;
+            }
+            .f4{
+                //list-style-image: url(../images/Cross.png);
+                font-size: 22px;
+                padding-bottom: 10px;
+            }
+            .f5{
+                //list-style-image: url(../images/Cross.png);
+                padding-bottom: 10px;
+            }
+            .f6{
+                //list-style-image: url(../images/Cross.png);
+                padding-bottom: 10px;
+            }
+            .get-started-container{
+
+                padding-top: 5px;
+                text-align: center;
+                background-color: #EEEEEE;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #bebebe;
+                width: 194px;
+                border-radius: 49px;
+                height: 45px;
+                margin-left: 27px;
+                margin-top: 20px;
+
+                &:hover{
+                    background-color: #00AEC7;
+                    .get-started{
+                        color: white;
+                    }
+                }
+                .get-started{
+
+                        font-size: 26px;
+                        color: black;
+                        text-decoration: none;
+                        
+                    
+                }
+                
+            }
+        }
+            
+
+            
+        }
+            
+        }
+
+        .middle-price{
+            //padding-left: 900px;
+            //padding-top: -10000px;
+            .middle-price-container{
+
+            
+            background-color: white;
+            width: 353px;
+            height: 650px;
+            border-radius: 50px;
+            text-align: center;
+            .premium-price{
+                padding-top: 75px;
+                margin-bottom: 0px;
+                font-size: 50px;
+                color: black;
+            }
+            .Monthley{
+                margin-top: -10px;
+                margin-bottom:-10px;
+                    font-size: 20px;
+                    color: #707070;
+                }
+                .sub-container{
+                    margin-top: 30PX;
+                    margin-left: 107px;
+                    width: 132px;
+                    height: 39px;
+                    background-color: #9C79A5;
+                    border-radius: 100px;
+                    .sub{
+                        
+                         text-align: center;
+                        font-size: 25px;
+                        color: white;
+               
+                    }
+
+                }
+                .features-list{
+            padding-right: 40px;
+            
+            
+            //list-style-image: url(../images/bullet.svg);
+            padding-top: 20px;
+            font-size: 23px;
+            text-align: center;
+            margin-left: 10px;
+            list-style: none;
+           
+            .f1{
+                padding-bottom: 10px;
+            }
+            .f2{
+                padding-bottom: 10px;
+            }
+            .f3{
+                padding-bottom: 10px;
+            }
+            .f4{
+                font-size: 22px;
+                padding-bottom: 10px;
+            }
+            .f5{
+                //list-style-image: url(../images/Cross.png);
+               
+                
+                padding-bottom: 10px;
+            }
+            .f6{
+                //list-style-image: url(../images/Cross.png);
+                padding-bottom: 10px;
+            }
+           
+            
+        }
+        .get-started-container{
+
+            padding-top: 5px;
+            text-align: center;
+            background-color: #EEEEEE;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #bebebe;
+            width: 194px;
+            border-radius: 49px;
+            height: 45px;
+            margin-left: 27px;
+            margin-top: 20px;
+
+            &:hover{
+                background-color: #9C79A5;
+                .get-started{
+                    color: white;
+                }
+            }
+            .get-started{
+
+                    font-size: 26px;
+                    color: black;
+                    text-decoration: none;
+                    
+                
+            }
+        }
+
+            
+        }
+            
+        }
+        
+
+        .right-price{
+            
+            .right-price-container{
+
+            
+            background-color: white;
+            width: 353px;
+            height: 650px;
+            border-radius: 50px;
+            text-align: center;
+            .plus-price{
+                padding-top: 75px;
+                margin-bottom: 0px;
+                font-size: 50px;
+                color: black;
+            }
+            .Monthley{
+                margin-top: -10px;
+                margin-bottom:-10px;
+                    font-size: 20px;
+                    color: #707070;
+                }
+                .sub-container{
+                    margin-top: 30PX;
+                    margin-left: 107px;
+                    width: 132px;
+                    height: 39px;
+                    background-color: #DEC837;
+                    border-radius: 100px;
+                    .sub{
+                        
+                         text-align: center;
+                        font-size: 28px;
+                        color: white;
+               
+                    }
+
+                }
+                .features-list{
+            padding-right: 40px;
+            
+            
+            //list-style-image: url(../images/bullet.svg);
+            padding-top: 20px;
+            font-size: 23px;
+            text-align: center;
+            margin-left: 10px;
+            list-style: none;
+
+           
+            .f1{
+                padding-bottom: 10px;
+            }
+            .f2{
+                padding-bottom: 10px;
+            }
+            .f3{
+                padding-bottom: 10px;
+            }
+            .f4{
+                font-size: 22px;
+                padding-bottom: 10px;
+            }
+            .f5{
+                padding-bottom: 10px;
+            }
+            .f6{
+                padding-bottom: 10px;
+            }
+           
+            
+        }
+        .get-started-container{
+
+            padding-top: 5px;
+            text-align: center;
+            background-color: #EEEEEE;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #bebebe;
+            width: 194px;
+            border-radius: 49px;
+            height: 45px;
+            margin-left: 27px;
+            margin-top: 20px;
+
+            &:hover{
+                background-color: #DEC837;
+                .get-started{
+                    color: white;
+                }
+            }
+            .get-started{
+
+                    font-size: 26px;
+                    color: black;
+                    text-decoration: none;
+                    
+                
+            }
+            
+        }
+            
+        }
+            
+        }
+        
+        
+    }
+
+}
+// makes prices flow next to each other //
+.prices {
+    display: flex;
+  }
+  .prices > div {
+    flex: 1; /*grow*/
+  }
